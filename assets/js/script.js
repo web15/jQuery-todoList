@@ -1,8 +1,4 @@
-/*
-if(jQuery)  {
-    alert("jQuery Loaded!")
-} else {
-    alert("No jQuery");
-} 
-*/
-
+// Check off specific Todos by clicking
+$("li").click(function () {
+        $(this).toggleClass("completed");
+});
